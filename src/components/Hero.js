@@ -1,26 +1,29 @@
-import React from 'react'
+import React from "react";
 import heroImage from "../images/hero.png";
-import LinkButton from './LinkButton';
+import LinkButton from "./LinkButton";
+import heroBg from "../images/hero-bg.png";
 
 const Hero = () => {
   return (
     <>
-    <div className="pt-24 bg-red-200">
+      <div
+        className="pt-24 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: `url(${heroBg})` }}
+      >
         <div className="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
           {/* <!--Left Col--> */}
           <div className="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
-            <h1 className="my-4 text-5xl font-bold leading-tight text-blue-900">
+            <h1 className="my-4 text-5xl font-bold leading-tight text-white">
               Helpful Handymen
             </h1>
-            <p className="leading-normal text-2xl mb-8 text-blue-900">
+            <p className="leading-normal text-2xl mb-8 text-white">
               Our team of professionals stand by waiting to assist.
             </p>
             <LinkButton
-            to="/contact"
-            external
-            className='bg-blue-900 text-white hover:text-red-700'
+              to="/#contact"
+              className="bg-blue-900 text-white mb-5 hover:text-red-700"
             >
-                Contact us
+              Contact us
             </LinkButton>
           </div>
           {/* <!--Right Col--> */}
@@ -34,7 +37,7 @@ const Hero = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;

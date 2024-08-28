@@ -2,11 +2,11 @@ import * as React from "react";
 
 const navigation = {
   main: [
-    { name: "Home", href: "#" },
-    { name: "About", href: "#" },
+    { name: "Home", href: "/" },
     { name: "Services", href: "/services" },
     { name: "Remodel", href: "#" },
-    { name: "Contact", href: "#" },
+    { name: "Jobs", href: "#" },
+    { name: "Contact", href: "/#contact" },
   ],
   social: [
     {
@@ -40,7 +40,7 @@ const navigation = {
 
 const Footer = () => {
   return (
-    <footer className="bg-white">
+    <footer className="bg-red-950">
       <div className="mx-auto max-w-7xl overflow-hidden px-6 py-20 sm:py-24 lg:px-8">
         <nav
           aria-label="Footer"
@@ -50,7 +50,7 @@ const Footer = () => {
             <div key={item.name} className="pb-6">
               <a
                 href={item.href}
-                className="text-sm leading-6 text-gray-600 hover:text-gray-900"
+                className="text-sm leading-6 text-white hover:text-blue-700"
               >
                 {item.name}
               </a>
@@ -62,14 +62,14 @@ const Footer = () => {
             <a
               key={item.name}
               href={item.href}
-              className="text-gray-400 hover:text-gray-500"
+              className="text-white hover:text-blue-700"
             >
               <span className="sr-only">{item.name}</span>
               <item.icon aria-hidden="true" className="h-6 w-6" />
             </a>
           ))}
         </div>
-        <p className="mt-10 text-center text-xs leading-5 text-gray-500">
+        <p className="mt-10 text-center text-xs leading-5 text-blue-700">
           &copy; 2019 Hughes Home Services, Inc. All rights reserved.
         </p>
       </div>

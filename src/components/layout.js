@@ -13,7 +13,6 @@ const Layout = ({ pageTitle, children }) => {
       <main>
         <Hero />
         <About />
-        <Services />
         <Contact />
       </main>
       <Footer />

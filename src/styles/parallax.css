@@ -1,0 +1,13 @@
+.parallax-bg {
+  background-image: url('../images/about-bg.png'); /* Ensure this path is correct relative to your CSS file */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 768px) {
+  .parallax-bg {
+    background-attachment: scroll;
+  }
+}

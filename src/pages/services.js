@@ -1,11 +1,13 @@
 import * as React from 'react'
+import ServicesLayout from '../components/ServicesLayout'
 
-const AboutPage = () => {
+
+const ServicesPage = () => {
   return (
-    <div>About Page</div>
+    <ServicesLayout />
   )
 }
 
-export const Head = () => <title>Hughes Home Services | About Page</title>
+export const Head = () => <title>Hughes Home Services | Services</title>
 
-export default AboutPage
+export default ServicesPage
