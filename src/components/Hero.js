@@ -13,15 +13,15 @@ const Hero = () => {
         <div className="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
           {/* <!--Left Col--> */}
           <div className="flex flex-col w-full md:w-2/5 justify-center items-start text-left">
-            <h1 className="my-4 text-5xl font-bold leading-tight text-white">
+            <h1 className="my-4 ml-4 text-5xl font-bold leading-tight text-white">
               Helpful Handymen
             </h1>
-            <p className="leading-normal text-2xl mb-8 text-white">
+            <p className="leading-normal ml-4 text-2xl mb-8 text-white">
               Our team of professionals stand by waiting to assist.
             </p>
             <LinkButton
               to="/#contact"
-              className="bg-blue-900 text-white mb-5 hover:text-red-700"
+              className="bg-blue-900 sm:ml-0 text-white mb-5 hover:text-red-700"
             >
               Contact us
             </LinkButton>

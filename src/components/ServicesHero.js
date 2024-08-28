@@ -6,25 +6,25 @@ const features = [
   {
     name: 'Years of experience',
     description:
-      'Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa.',
+      'With over 10 years of experience here in the Coachella Valley, We pride ourselves on building lasting relationships with our clients, grounded in honesty, transparency, and a commitment to excellence.',
     icon: HomeIcon,
   },
   {
-    name: 'Trusted in the community',
+    name: 'Honest & Affordable',
     description:
-      'Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet.',
+      'We believe in providing honest and affordable solutions for every homeowner. Each visit comes with an upfront $99 service-call fee, which is deducted from your total bill—no hidden costs. For your convenience, we accept cash, checks, and online credit card payments.',
     icon: IdentificationIcon,
   },
   {
     name: 'Fast & Reliable',
     description:
-      'Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque.',
+      'Whether it is an urgent repair or a planned renovation, you can count on us to deliver prompt, professional service that gets the job done right the first time.',
     icon: ForwardIcon,
   },
   {
     name: 'Satisfaction Guarenteed',
     description:
-      'Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.',
+      'Your satisfaction is our top priority. We stand behind the quality of our work with a satisfaction guarantee, ensuring that every job meets your expectations. If you’re not happy, we’re not done – that’s our promise.',
     icon: FaceSmileIcon,
   },
 ]
