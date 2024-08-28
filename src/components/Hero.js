@@ -12,7 +12,7 @@ const Hero = () => {
       >
         <div className="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
           {/* <!--Left Col--> */}
-          <div className="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
+          <div className="flex flex-col w-full md:w-2/5 justify-center items-start text-left">
             <h1 className="my-4 text-5xl font-bold leading-tight text-white">
               Helpful Handymen
             </h1>
