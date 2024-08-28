@@ -178,7 +178,7 @@ const Services = () => {
                   <DisclosureButton className="flex w-full text-gray-900">
                     
                     <span className="text-base font-semibold leading-7">{allServices.service}</span>
-                    <span className="text-base flex-end font-semibold leading-7 ">{allServices.price}</span>
+                    <span className="text-base flex- font-semibold leading-7 ">{allServices.price}</span>
                     
                     <span className="ml-6 flex h-7 items-center">
                       <PlusIcon aria-hidden="true" className="h-6 w-6 group-data-[open]:hidden" />
