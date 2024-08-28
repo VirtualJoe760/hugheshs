@@ -174,13 +174,11 @@ const Services = () => {
           <dl className="mt-10 space-y-6 divide-y divide-gray-900/10">
             {allServices.map((allServices) => (
               <Disclosure key={allServices.service} as="div" className="pt-6">
-                <dt className="flex justify-between items-center">
-                  <DisclosureButton className="flex w-full text-gray-900">
-                    
+                <dt>
+                  <DisclosureButton className="flex w-full justify-between text-gray-900">     
                     <span className="text-base font-semibold leading-7">{allServices.service}</span>
-                    <span className="text-base flex- font-semibold leading-7 ">{allServices.price}</span>
-                    
                     <span className="ml-6 flex h-7 items-center">
+                      <p className="me-5">{allServices.price}</p>
                       <PlusIcon aria-hidden="true" className="h-6 w-6 group-data-[open]:hidden" />
                       <MinusIcon aria-hidden="true" className="h-6 w-6 [.group:not([data-open])_&]:hidden" />
                     </span>
