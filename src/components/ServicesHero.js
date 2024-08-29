@@ -12,7 +12,7 @@ const features = [
   {
     name: 'Honest & Affordable',
     description:
-      'We believe in providing honest and affordable solutions for every homeowner. Each visit comes with an upfront $99 service-call fee, which is deducted from your total bill—no hidden costs. For your convenience, we accept cash, checks, and online credit card payments.',
+      'We believe in providing honest and affordable solutions for every homeowner. Each visit comes with an upfront $99 service-call fee, which is deducted from your total bill—no hidden costs. For your convenience, online or over the phone credit card payments.',
     icon: IdentificationIcon,
   },
   {
