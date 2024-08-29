@@ -6,14 +6,14 @@ const LoadingSpinner = ({ children }) => {
 
     useEffect(() => {
         const handleLoad = () => setLoading(false);
-
+      
         if (document.readyState === 'complete') {
-            handleLoad();
+          handleLoad();
         } else {
-            window.addEventListener('load', handleLoad);
-            return () => window.removeEventListener('load', handleLoad);
+          window.addEventListener('load', handleLoad);
+          return () => window.removeEventListener('load', handleLoad);
         }
-    }, []);
+      }, []);
 
     return (
         <>
