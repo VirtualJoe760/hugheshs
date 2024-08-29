@@ -1,7 +1,6 @@
 import React from "react";
-import heroImage from "../images/hero.png";
+import { heroImg, heroBg} from "../images";
 import LinkButton from "./LinkButton";
-import heroBg from "../images/hero-bg.png";
 
 const Hero = () => {
   return (
@@ -30,8 +29,9 @@ const Hero = () => {
           <div className="w-full md:w-3/5 pt-6 text-center">
             <img
               className="w-full md:w-4/5 z-50 sm:w-2/5 mx-auto"
-              src={heroImage}
+              src={heroImg}
               alt="hero img"
+              placeholder="blurred"
             />
           </div>
         </div>
